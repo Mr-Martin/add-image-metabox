@@ -1,0 +1,93 @@
+/* -----------------------------------
+	GENERAL STYLING
+----------------------------------- */
+#add_img_metabox .inside {
+	display: inline-block;
+}
+
+#droppable {
+	max-width: 100%;
+	float: left;
+}
+
+.id_title,
+.id_link {
+	width: 99%;
+	display: block;
+	border: 1px solid #dfdfdf;
+}
+
+.id_text {
+	width: 100%;
+	height: 100px;
+}
+
+.image-entry p {margin-bottom: 0px;}
+
+.image-entry {
+	float: left;
+	padding: 20px;
+	margin: 10px;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.img-preview {
+	width: 150px;
+	height: 150px;
+	background: #f5f5f5;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	cursor: move;
+}
+
+.add-more-slides {
+	width: 152px;
+	height: 461px;
+	cursor: pointer;
+	margin: 0;
+	padding: 20px;
+	float: left;
+	margin: 10px;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 341px;
+}
+
+
+
+
+
+/* -----------------------------------
+	DRAGGABLE STYLING
+----------------------------------- */
+[draggable] {
+	  -moz-user-select: none;
+	  -khtml-user-select: none;
+	  -webkit-user-select: none;
+	  user-select: none;
+	}
+
+	.img-preview {
+		position:relative;
+	}
+
+	.img-preview img {
+		position:absolute;
+		top:0;
+		left:0;
+	}
+
+	.image-entry.over {
+		border: 1px dashed #000;
+	}
+
+	.get-image,.remove-slide {
+		margin-top:10px !important;
+		display:block !important;
+	}
